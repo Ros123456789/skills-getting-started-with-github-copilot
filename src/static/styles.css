@@ -94,7 +94,7 @@ section h3 {
 }
 
 button {
-  background-color: #1a237e;
+  background-color: #e75480; /* vibrant pink */
   color: white;
   border: none;
   padding: 10px 15px;
@@ -105,7 +105,7 @@ button {
 }
 
 button:hover {
-  background-color: #3949ab;
+  background-color: #d72660; /* deep pink */
 }
 
 .message {
@@ -115,9 +115,9 @@ button:hover {
 }
 
 .success {
-  background-color: #e8f5e9;
-  color: #2e7d32;
-  border: 1px solid #a5d6a7;
+  background-color: #fce4ec;
+  color: #ad1457;
+  border: 1px solid #f8bbd0;
 }
 
 .error {
@@ -127,9 +127,9 @@ button:hover {
 }
 
 .info {
-  background-color: #d1ecf1;
-  color: #0c5460;
-  border: 1px solid #bee5eb;
+  background-color: #f3e5f5;
+  color: #6a1b9a;
+  border: 1px solid #ce93d8;
 }
 
 .hidden {
@@ -141,4 +141,30 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+.participants-section {
+  margin-top: 10px;
+  padding: 8px 10px;
+  background: #f8bbd0; /* light pink */
+  border-radius: 4px;
+}
+
+.participants-list {
+  margin: 6px 0 0 0;
+  padding-left: 18px;
+}
+
+.participant-badge {
+  background: #e75480;
+  color: #fff;
+  border-radius: 3px;
+  padding: 2px 7px;
+  font-size: 0.95em;
+  margin-right: 4px;
+}
+
+.participant-email {
+  color: #ad1457;
+  font-size: 0.92em;
 }
